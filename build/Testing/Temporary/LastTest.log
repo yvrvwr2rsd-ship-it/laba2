@@ -1,0 +1,35 @@
+Start testing: Oct 23 12:31 MSK
+----------------------------------------------------------
+1/2 Testing: unit
+1/2 Test: unit
+Command: "/home/administrator/seminaralg/build/test_unit"
+Directory: /home/administrator/seminaralg/build
+"unit" start time: Oct 23 12:31 MSK
+Output:
+----------------------------------------------------------
+[unit] All tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit" end time: Oct 23 12:31 MSK
+"unit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: integration
+2/2 Test: integration
+Command: "/home/administrator/seminaralg/build/test_integration"
+Directory: /home/administrator/seminaralg/build
+"integration" start time: Oct 23 12:31 MSK
+Output:
+----------------------------------------------------------
+[integration] All tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"integration" end time: Oct 23 12:31 MSK
+"integration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 12:31 MSK
