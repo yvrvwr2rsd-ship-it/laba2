@@ -36,7 +36,6 @@ set_target_properties(arraylib app PROPERTIES
     ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
 )
 
-
 # ---- Тесты ----
 include(CTest)
 
@@ -51,4 +50,7 @@ if (BUILD_TESTING)
     target_link_libraries(test_integration PRIVATE arraylib)
     target_compile_options(test_integration PRIVATE -UNDEBUG)
     add_test(NAME integration COMMAND test_integration)
+
+    add_executable(variant_12 examples/variant_12.cpp)
+    target_link_libraries(variant_12 PRIVATE arraylib)
 endif()

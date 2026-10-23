@@ -30,6 +30,7 @@
 /home/administrator/seminaralg/build/CMakeFiles/ContinuousSubmit.dir
 /home/administrator/seminaralg/build/CMakeFiles/test_unit.dir
 /home/administrator/seminaralg/build/CMakeFiles/test_integration.dir
+/home/administrator/seminaralg/build/CMakeFiles/variant_12.dir
 /home/administrator/seminaralg/build/CMakeFiles/test.dir
 /home/administrator/seminaralg/build/CMakeFiles/edit_cache.dir
 /home/administrator/seminaralg/build/CMakeFiles/rebuild_cache.dir

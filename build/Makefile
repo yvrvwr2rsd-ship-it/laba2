@@ -542,6 +542,43 @@ test_integration/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_integration.dir/build.make CMakeFiles/test_integration.dir/build
 .PHONY : test_integration/fast
 
+#=============================================================================
+# Target rules for targets named variant_12
+
+# Build rule for target.
+variant_12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 variant_12
+.PHONY : variant_12
+
+# fast build rule for target.
+variant_12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant_12.dir/build.make CMakeFiles/variant_12.dir/build
+.PHONY : variant_12/fast
+
+examples/variant_12.o: examples/variant_12.cpp.o
+.PHONY : examples/variant_12.o
+
+# target to build an object file
+examples/variant_12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant_12.dir/build.make CMakeFiles/variant_12.dir/examples/variant_12.cpp.o
+.PHONY : examples/variant_12.cpp.o
+
+examples/variant_12.i: examples/variant_12.cpp.i
+.PHONY : examples/variant_12.i
+
+# target to preprocess a source file
+examples/variant_12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant_12.dir/build.make CMakeFiles/variant_12.dir/examples/variant_12.cpp.i
+.PHONY : examples/variant_12.cpp.i
+
+examples/variant_12.s: examples/variant_12.cpp.s
+.PHONY : examples/variant_12.s
+
+# target to generate assembly for a file
+examples/variant_12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/variant_12.dir/build.make CMakeFiles/variant_12.dir/examples/variant_12.cpp.s
+.PHONY : examples/variant_12.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -679,6 +716,10 @@ help:
 	@echo "... arraylib"
 	@echo "... test_integration"
 	@echo "... test_unit"
+	@echo "... variant_12"
+	@echo "... examples/variant_12.o"
+	@echo "... examples/variant_12.i"
+	@echo "... examples/variant_12.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

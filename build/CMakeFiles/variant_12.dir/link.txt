@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/variant_12.dir/link.d CMakeFiles/variant_12.dir/examples/variant_12.cpp.o -o variant_12  -Wl,-rpath,/home/administrator/seminaralg/build libarraylib.so

@@ -86,4 +86,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/test_unit.dir/DependInfo.cmake"
   "CMakeFiles/test_integration.dir/DependInfo.cmake"
+  "CMakeFiles/variant_12.dir/DependInfo.cmake"
   )
